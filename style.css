@@ -46,12 +46,17 @@ text-align: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: rgb(22, 87, 107);
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
   }
   
   .content {
     text-align: center;
-    background-color: rgba(40, 98, 116, 0.422);
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -63,7 +68,7 @@ text-align: center;
     bottom: 0;
     min-width: 100%;
     text-align: center;
-    background-color: #100b0bbe; 
+    background-color: #100b0b78; 
     color: #fff; 
     padding: 10px 0;
   }
