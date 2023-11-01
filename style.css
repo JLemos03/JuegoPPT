@@ -1,0 +1,70 @@
+/*main{
+    text-align: center;
+    align-items: center;
+    max-height: 100% ;
+
+}
+
+body{
+    background-color: rgb(22, 87, 107);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    
+}
+
+.content{
+    text-align: center;
+    align-items: center;
+    max-height: 100% ;
+}
+
+
+@media (min-width: 768px) {
+    .content {
+      max-width: 400px; /* Establece un ancho máximo para la tarjeta en pantallas más grandes 
+    }
+}
+
+#footer{
+
+position: fixed;
+bottom: 0;
+width: 100%;
+background-color: #333;
+color: #fff;
+padding: 5px 0;
+text-align: center;
+
+  }
+  */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(22, 87, 107);
+  }
+  
+  .content {
+    text-align: center;
+    background-color: rgba(40, 98, 116, 0.422);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+  }
+  
+  #footer {
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    text-align: center;
+    background-color: #100b0bbe; 
+    color: #fff; 
+    padding: 10px 0;
+  }
+  
